@@ -97,8 +97,10 @@ export function CurriculumPage() {
   return (
     <div className="max-w-4xl mx-auto p-8 bg-white text-gray-800">
       <header className="mb-8">
+        {/* ENCABEZADO */}
         <h1 className="text-4xl font-bold mb-2">{encabezado.job}</h1>
         <h2 className="text-2xl text-gray-600 mb-4">{encabezado.name}</h2>
+        {/* DATOS DE CONTACTO */}
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center">
             <Mail className="w-5 h-5 mr-2" />
@@ -123,11 +125,13 @@ export function CurriculumPage() {
         </div>
       </header>
 
+        {/* RESUMEN */}
       <section className="mb-8">
         <h3 className="text-2xl font-semibold mb-4 border-b pb-2">{summary.titulo}</h3>
         <p>{summary.text}</p>
       </section>
 
+        {/* EXPERIENCIA DE TRABAJO */}
       <section className="mb-8">
         <h3 className="text-2xl font-semibold mb-4 border-b pb-2">{workExperience.titulo}</h3>
         {workExperience.text.map((item, index) => (
@@ -143,6 +147,7 @@ export function CurriculumPage() {
         ))}
       </section>
 
+        {/* EDUCACIÓN */}
       <section className="mb-8">
         <h3 className="text-2xl font-semibold mb-4 border-b pb-2">{education.titulo}</h3>
         {education.text.map((item, index) => (
@@ -154,6 +159,7 @@ export function CurriculumPage() {
         ))}
       </section>
 
+        {/* SKILLS */}
       <section className='mb-8'>
         <h3 className="text-2xl font-semibold mb-4 border-b border-blue-500 pb-2">{skills.titulo}</h3>
         <ul className="list-disc list-inside columns-2 sm:columns-3">
@@ -168,6 +174,7 @@ export function CurriculumPage() {
         </ul>
       </section>
       
+          {/* PORFOLIO */}
       <section>
         <div className='flex items-center justify-center border-b border-blue-500 mb-4 pb-2'>
           <ArchiveIcon className="w-5 h-5 mr-2"/>
