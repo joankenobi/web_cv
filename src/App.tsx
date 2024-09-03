@@ -1,4 +1,5 @@
 import { CurriculumPage } from './pages/curriculum.tsx'
+import { CurriculumDataScientisGaliciaScalaC } from './pages/curriculumDataScientisGaliciaScalaC.tsx'
 
 import './App.css'
 
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-        <CurriculumPage/>
+        {/* <CurriculumPage/> */}
+        <CurriculumDataScientisGaliciaScalaC/>
     </>
   )
 }

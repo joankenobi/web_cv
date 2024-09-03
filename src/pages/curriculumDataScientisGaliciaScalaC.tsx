@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch } from 'lu
 
 const encabezado = {
   name: 'Joan Blanco',
-  job: 'Backend Developer',
+  job: 'Data Engineer',
 }
 
 const dataContact = {
@@ -21,7 +21,7 @@ const dataContact = {
 
 const summary = {
   titulo: "Summary",
-  text: "Programador Backend con experiencia en el desarrollo de aplicaciones web y servicios API REST. Me apasiona la programación y la resolución de problemas, siempre buscando la eficiencia y la calidad en el código. Me gusta trabajar en equipo y aprender de mis compañeros, siempre dispuesto a compartir mis conocimientos y ayudar a los demás.",
+  text: "Ingeniero de datos con experiencia en el desarrollo de pipelines y análisis de datos. Me apasiona la programación y la resolución de problemas, siempre buscando la eficiencia y la calidad en el manejo de los datos para aportar información importante. Me gusta trabajar en equipo y aprender de mis compañeros, siempre dispuesto a compartir mis conocimientos y ayudar a los demás.",
 }
 
 const workExperience = {
@@ -29,25 +29,27 @@ const workExperience = {
   text: [
     {
       job: "FREELANCER semi senior Backend",
-      duration: "Miranda Venezuela | May 2022-actual.",
+      duration: "Banco Galicia Argentina | May 2022-actual.",
       description: [
         "Desarrollé un servicio de alto trafico capaz de recibir una cantidad superior a 24 mil peticiones por dia.",
         "Implementé multiples refactors que mejoraron el funcionamiento de 10 servicios API REST.",
-        "Trabajé en equipo siempre explicando conceptos que no entienden mis compañeros y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
+        "Trabajé en equipo, siempre ayudando a comprender procesos y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
       ]
     },
     {
       job: "Desarrollador de software y científico de datos",
       duration: "Geopulso | May 2021-Nov 2022",
       description: [
-        "Desarrollé un software informatico capaz de obtener el pronostico de operaciones financieras para la inversion en criptomonedas utilizando herramientas de ciencias de datos y machine learning."
+        "Desarrollé un software informático capaz de obtener el pronostico de operaciones financieras para la inversion en criptomonedas utilizando herramientas de ciencias de datos y machine learning.",
+        "Analicé y procesé más de 3000 datos de diferentes fuentes de para obtener información relevante para la toma de decisiones y el desarrollo de un modelo de machine learning.",
+        "Agilicé un 90% la obtención de datos de diferentes fuentes y su procesamiento para el análisis de datos con un pipeline automatizado que guardaba documentos en MongoDB.",
       ]
     },
     {
-      job: "Activo de soporte tecnico",
+      job: "Activo de soporte técnico",
       duration: "Unexpo | Jul 2021-Oct 2021",
       description: [
-        "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Magnament Services para la plataforma de educación virtual de la UNEXPO."
+        "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Mangement Services para la plataforma de educación virtual de la UNEXPO con cero costos para la universidad aprovechando herramientas externas igualmente gratuitas."
       ]
     }
   ],
@@ -68,19 +70,20 @@ const skills = {
   titulo: "Skills",
   text: [
     // { name: "JavaScript & TypeScript", level: "Semi senior ◉◉○○○" },
-    { name: "JavaScript", level: "Semi senior ◉◉○○○" },
-    { name: "TypeScript", },
-    { name: "React", },
-    { name: "Node.js", },
-    { name: "Python", },
-    { name: "SQL & NoSQL databases", },
-    { name: "RESTful APIs", },
-    { name: "Django", },
-    { name: "Docker", },
-    { name: "AWS", },
-    { name: "Git", },
-    { name: "Agile/Scrum", },
-    { name: "CI/CD", },
+    { name: "Pandas", level: "3 años" },
+    { name: "NestJs", level: "2 años" },
+    { name: "React", level: "2 años" },
+    { name: "Scala", level: "6 meses" },
+    { name: "Python", level: "3 años" },
+    { name: "SQL & NoSQL", level: "3 años" },
+    { name: "RESTful APIs", level: "3 años" },
+    { name: "Django", level: "2 años" },
+    { name: "Azure",  level: "1 año" },
+    { name: "Java", level: "1 año" },
+    { name: "C#", level: "1 año" },
+    { name: "Git", level: "3 años" },
+    { name: "Agile/Scrum", level: "3 años" },
+    { name: "Ingles", level: "Comprensión lectora" },
   ],
 }
 
@@ -91,10 +94,18 @@ const portfolio = {
       name: "portfoliojb.carrd.co",
       url: "https://portfoliojb.carrd.co/",
     },
+    {
+      name: "Analisis de datos venta de vehiculos",
+      url: "https://colab.research.google.com/drive/18biLYucfkfZFw3Qg2Ghv_JxpQyE3hHzf?usp=sharing",
+    },
+    {
+      name: "Analisis de datos Instagram de Ronaldinho",
+      url: "https://colab.research.google.com/drive/1KCvNCFrS8NShEVN_b7O2eK0s6wzkckwY?usp=sharing",
+    }
   ]
 }
 
-export function CurriculumPage() {
+export function CurriculumDataScientisGaliciaScalaC() {
   return (
     <div className="max-w-4xl mx-auto p-8 bg-white text-gray-800">
       <header className="mb-8">
@@ -135,7 +146,7 @@ export function CurriculumPage() {
             {skills.text.map((item, index) => (
               <li key={index} className='text-2sm' >
                 {item.name}
-                <p className='text-xs text-center text-gray-500'>
+                <p className='text-xs text-left text-gray-500'>
                   {item.level}
                 </p>
               </li>
