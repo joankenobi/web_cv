@@ -7,8 +7,8 @@ const encabezado = {
 
 const dataContact = {
   mail: "joan1233blanco@gmail.com",
-  phone: "+58 412 2129362",
-  location: "Venezuela, Caracas",
+  phone: "",
+  location: "",
   linkedin: {
     text: "linkedin.com/in/joan-blanco",
     url: "https://www.linkedin.com/in/joan-blanco/",
@@ -118,14 +118,20 @@ export function CurriculumDataScientisGaliciaScalaC() {
             <Mail className="w-5 h-5 mr-2" />
             <a href={"mailto:" + dataContact.mail} className="hover:underline">{dataContact.mail}</a>
           </div>
+          {dataContact.phone?
           <div className="flex items-center">
             <Phone className="w-5 h-5 mr-2" />
             <a href={"tel:" + dataContact.phone} className="hover:underline">{dataContact.phone}</a>
           </div>
-          <div className="flex items-center">
-            <MapPin className="w-5 h-5 mr-2" />
-            <span>{dataContact.location}</span>
-          </div>
+          : null}
+          
+          {dataContact.location?
+            <div className="flex items-center">
+              <MapPin className="w-5 h-5 mr-2" />
+              <span>{dataContact.location}</span>
+            </div>
+          : null}
+
           <div className="flex items-center">
             <Linkedin className="w-5 h-5 mr-2" />
             <a href={dataContact.linkedin.url} target="_blank" rel="noopener noreferrer" className="hover:underline">{dataContact.linkedin.text}</a>
