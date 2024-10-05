@@ -19,7 +19,6 @@ const frelancerBackendVen: workExperienceText = {
     ]
 }
 
-
 const frelancerBackendBancoGalicia: workExperienceText = {
     job: frelancerBackendVen.job,
     duration: "Banco Galicia Argentina | May 2022-actual.",
@@ -31,8 +30,8 @@ const cientificoDeDatosGeopulso: workExperienceText = {
     duration: "Geopulso | May 2021-Nov 2022",
     description: [
         "Desarrollé un software informático capaz de obtener el pronostico de operaciones financieras para la inversion en criptomonedas utilizando herramientas de ciencias de datos y machine learning.",
-        "Analicé y procesé más de 3000 datos de diferentes fuentes de para obtener información relevante para la toma de decisiones y el desarrollo de un modelo de machine learning.",
-        "Agilicé un 90% la obtención de datos de diferentes fuentes y su procesamiento para el análisis de datos con un pipeline automatizado que guardaba documentos en MongoDB.",
+        "Analicé y procesé más de 3000 datos de diferentes fuentes", 
+        "Obtuve información relevante y util para la toma de decisiones y el desarrollo de un modelo de machine learning.",
     ]
 }
 

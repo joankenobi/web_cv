@@ -15,12 +15,12 @@ const encabezado = {
 const dataContact: DataContactInterface = DataContact.dataContactAll
 
 const summary = {
-  titulo: "Summary",
+  titulo: "Resumen",
   text: Summaries.ProgramadorBackend,
 }
 
 const workExperience: WorkExperience = {
-  titulo: "Work Experience",
+  titulo: "Experiencias de trabajo",
   text: [
     AllWorkExperiences.frelancerBackendBancoGalicia,
     AllWorkExperiences.cientificoDeDatosGeopulso,
@@ -29,14 +29,14 @@ const workExperience: WorkExperience = {
 }
 
 const education = {
-  titulo: "Education",
+  titulo: "Educación",
   text: [
     AllEducations.UniIngenieriaMecatronica
   ],
 }
 
 const skills = {
-  titulo: "Skills",
+  titulo: "Habilidades y conocimientos",
   text: [
     Allskills.JavaScript,
     Allskills.TypeScript,
