@@ -1,107 +1,62 @@
 import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch } from 'lucide-react'
+import { WorkExperience, AllWorkExperiences, } from '../constants/CVContent/WorkExperiences'
+import {Summaries} from '../constants/CVContent/Summaries'
+import { DataContact, DataContactInterface } from '../constants/CVContent/DataContact'
+import { SkillInterface, Allskills } from '../constants/CVContent/Skills'
+import { PortfolioInterface, AllPortfolios } from '../constants/CVContent/Portfolios'
+import { EducationInterface, AllEducations } from '../constants/CVContent/Education'
+
+
 
 const encabezado = {
   name: 'Joan Blanco',
   job: 'Data Engineer',
 }
 
-const dataContact = {
-  mail: "joan1233blanco@gmail.com",
-  phone: "",
-  location: "",
-  linkedin: {
-    text: "linkedin.com/in/joan-blanco",
-    url: "https://www.linkedin.com/in/joan-blanco/",
-  },
-  github: {
-    text: "github.com/joankenobi",
-    url: "https://www.github.com/joankenobi",
-  }
-}
+const dataContact: DataContactInterface = DataContact.dataContactAll
 
 const summary = {
   titulo: "Summary",
-  text: "Ingeniero de datos con experiencia en el desarrollo de pipelines y análisis de datos. Me apasiona la programación y la resolución de problemas, siempre buscando la eficiencia y la calidad en el manejo de los datos para aportar información importante. Me gusta trabajar en equipo y aprender de mis compañeros, siempre dispuesto a compartir mis conocimientos y ayudar a los demás.",
+  text: Summaries.IngenieroDeDatos,
 }
 
 const workExperience = {
   titulo: "Work Experience",
   text: [
-    {
-      job: "FREELANCER semi senior Backend",
-      duration: "Banco Galicia Argentina | May 2022-actual.",
-      description: [
-        "Desarrollé un servicio de alto trafico capaz de recibir una cantidad superior a 24 mil peticiones por dia.",
-        "Implementé multiples refactors que mejoraron el funcionamiento de 10 servicios API REST.",
-        "Trabajé en equipo, siempre ayudando a comprender procesos y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
-      ]
-    },
-    {
-      job: "Desarrollador de software y científico de datos",
-      duration: "Geopulso | May 2021-Nov 2022",
-      description: [
-        "Desarrollé un software informático capaz de obtener el pronostico de operaciones financieras para la inversion en criptomonedas utilizando herramientas de ciencias de datos y machine learning.",
-        "Analicé y procesé más de 3000 datos de diferentes fuentes de para obtener información relevante para la toma de decisiones y el desarrollo de un modelo de machine learning.",
-        "Agilicé un 90% la obtención de datos de diferentes fuentes y su procesamiento para el análisis de datos con un pipeline automatizado que guardaba documentos en MongoDB.",
-      ]
-    },
-    {
-      job: "Activo de soporte técnico",
-      duration: "Unexpo | Jul 2021-Oct 2021",
-      description: [
-        "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Mangement Services para la plataforma de educación virtual de la UNEXPO con cero costos para la universidad aprovechando herramientas externas igualmente gratuitas."
-      ]
-    }
+    AllWorkExperiences.frelancerBackendBancoGalicia,
+    AllWorkExperiences.cientificoDeDatosGeopulso,
+    AllWorkExperiences.activoDeSoporteTecnicoUnexpo
   ],
 }
 
 const education = {
   titulo: "Education",
   text: [
-    {
-      title: "Ingeniería Mecatrónica",
-      institution: "Universidad Nacional Experimental Politécnica Antonio José de Sucre (UNEXPO)",
-      duration: "Graduado: Nov 2022",
-    }
-  ],
+      AllEducations.UniIngenieriaMecatronica
+    ],
 }
 
-const skills = {
+const skills: SkillInterface = {
   titulo: "Skills",
   text: [
-    // { name: "JavaScript & TypeScript", level: "Semi senior ◉◉○○○" },
-    { name: "Pandas", level: "3 años" },
-    { name: "NestJs", level: "2 años" },
-    { name: "React", level: "2 años" },
-    { name: "Scala", level: "6 meses" },
-    { name: "Python", level: "3 años" },
-    { name: "SQL & NoSQL", level: "3 años" },
-    { name: "RESTful APIs", level: "3 años" },
-    { name: "Django", level: "2 años" },
-    { name: "Azure",  level: "1 año" },
-    { name: "Java", level: "1 año" },
-    { name: "C#", level: "1 año" },
-    { name: "Git", level: "3 años" },
-    { name: "Agile/Scrum", level: "3 años" },
-    { name: "Ingles", level: "Comprensión lectora" },
+    Allskills.Pandas,
+    Allskills.NestJs,
+    Allskills.Python,
+    Allskills.SQLNoSQLdatabases,
+    Allskills.RESTfulAPIs,
+    Allskills.Django,
+    Allskills.Git,
+    Allskills.AgileScrum,
+    Allskills.Ingles,
   ],
 }
 
 const portfolio = {
   titulo: "Porfolios",
   text: [
-    {
-      name: "portfoliojb.carrd.co",
-      url: "https://portfoliojb.carrd.co/",
-    },
-    {
-      name: "Analisis de datos venta de vehiculos",
-      url: "https://colab.research.google.com/drive/18biLYucfkfZFw3Qg2Ghv_JxpQyE3hHzf?usp=sharing",
-    },
-    {
-      name: "Analisis de datos Instagram de Ronaldinho",
-      url: "https://colab.research.google.com/drive/1KCvNCFrS8NShEVN_b7O2eK0s6wzkckwY?usp=sharing",
-    }
+    AllPortfolios.PortfolioCarrd,
+    AllPortfolios.VehiculosAnalisis,
+    AllPortfolios.InstagramRonaldinhoAnalisis,
   ]
 }
 
