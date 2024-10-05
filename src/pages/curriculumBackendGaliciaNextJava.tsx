@@ -42,6 +42,7 @@ const skills = {
     Allskills.TypeScript,
     Allskills.React,
     Allskills.Python,
+    Allskills.Java,
     Allskills.SQLNoSQLdatabases,
     Allskills.RESTfulAPIs,
     Allskills.Django,

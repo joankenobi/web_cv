@@ -118,8 +118,8 @@ const Pandas: Skill = {
 const Java: Skill = {
     name: "Java",
     levelBySenior: "Semi senior",
-    levelByO: "◉◉○○○",
-    level: "3 años"
+    levelByO: "◉○○○○",
+    level: "2 años"
 }
 const Scala: Skill = {
     name: "Scala",
