@@ -62,6 +62,7 @@ const skills = {
     Allskills.UnitTesting,
     Allskills.GraphQL,
     Allskills.E2ETesting,
+    Allskills.Ingles,
   ],
 }
 
