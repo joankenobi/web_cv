@@ -10,4 +10,4 @@
     - Seleccionar la opcion de "Guardar"
     - Listo, se guardara el archivo en la carpeta que se haya seleccionado
 
-    NOTA: est'a la opcion de imprimir con microsoft print to pdf, pero no se recomienda ya que no se puede interactuar con los links del pdf.
+    NOTA: está la opcion de imprimir con microsoft print to pdf, pero no se recomienda ya que no se puede interactuar con los links del pdf.
