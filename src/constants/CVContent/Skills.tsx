@@ -144,63 +144,63 @@ const GraphQL: Skill={
     name: "GraphQL",
     levelBySenior: "Semi senior",
     levelByO: "◉◉○○○",
-    levelYear: "1.5 años",
+    level: "1.5 años",
 }
 
 const TypeORM: Skill={
     name: "TypeORM",
     levelBySenior: "Junior",
     levelByO: "◉◉○○○",
-    levelYear: "1 año",
+    level: "1 año",
 }
 
 const ExpressJs: Skill={
     name: "Express Js",
     levelBySenior: "Junior",
     levelByO: "◉◉○○○",
-    levelYear: "1 año",
+    level: "1 año",
 }
 
 const Sequelize: Skill={
     name: "Sequelize",
     levelBySenior: "Semi senior",
     levelByO: "◉◉○○○",
-    levelYear: "1 año",
+    level: "1 año",
 }
 
 const Inversify: Skill={
     name: "Inversify",
     levelBySenior: "Junior",
     levelByO: "◉○○○○",
-    levelYear: "6 meses",
+    level: "6 meses",
 }
 
 const TailwindCSS: Skill={
     name: "Tailwind CSS",
     levelBySenior: "Junior",
     levelByO: "◉◉○○○",
-    levelYear: "6 meses",
+    level: "6 meses",
 }
 
 const Postman: Skill={
     name: "Postman",
     levelBySenior: "Semi senior",
     levelByO: "◉◉○○○",
-    levelYear: "1 año",
+    level: "1 año",
 }
 
 const UnitTesting: Skill={
     name: "Unit Testing",
     levelBySenior: "Semi senior",
     levelByO: "◉◉○○○",
-    levelYear: "1.5 años",
+    level: "1.5 años",
 }
 
 const E2ETesting: Skill={
     name: "E2E Testing",
     levelBySenior: "Semi senior",
     levelByO: "◉◉○○○",
-    levelYear: "1.5 años",
+    level: "1.5 años",
 }
 
 
