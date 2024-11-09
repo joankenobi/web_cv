@@ -20,9 +20,19 @@ const InstagramRonaldinhoAnalisis =
     name: "Analisis de datos Instagram de Ronaldinho",
     url: "https://colab.research.google.com/drive/1KCvNCFrS8NShEVN_b7O2eK0s6wzkckwY?usp=sharing",
   }
+  
+const NayaPortfolios =
+  {
+    name: "Porfolio web",
+    url: "https://naya070.github.io/Mi-Portafolio-Js-React/",
+  }
 
 export const AllPortfolios = {
     PortfolioCarrd,
     VehiculosAnalisis,
     InstagramRonaldinhoAnalisis,
+}
+
+export const NayaAllPortfolios = {
+  NayaPortfolios
 }
