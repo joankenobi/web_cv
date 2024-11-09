@@ -1,10 +1,14 @@
 import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch } from 'lucide-react'
 import { WorkExperience, AllWorkExperiences } from '../constants/CVContent/WorkExperiences'
-import { Summaries } from '../constants/CVContent/Summaries'
-import { DataContactInterface, NayaDataContact } from '../constants/CVContent/DataContact'
-import { SkillInterface, Allskills, NayaAllskills } from '../constants/CVContent/Skills'
-import { PortfolioInterface, AllPortfolios, NayaAllPortfolios } from '../constants/CVContent/Portfolios'
-import { EducationInterface, AllEducations } from '../constants/CVContent/Education'
+import { Summaries } from '../constants/NayaCVContent/Summaries'
+import {  DataContact } from '../constants/NayaCVContent/DataContact'
+import {  Allskills } from '../constants/NayaCVContent/Skills'
+import { AllPortfolios } from '../constants/NayaCVContent/Portfolios'
+import { AllEducations } from '../constants/NayaCVContent/Education'
+import { DataContactInterface} from '../constants/CVContent/DataContact'
+import { SkillInterface} from '../constants/CVContent/Skills'
+import { PortfolioInterface } from '../constants/CVContent/Portfolios'
+import { EducationInterface} from '../constants/CVContent/Education'
 
 
 const encabezado = {
@@ -12,7 +16,7 @@ const encabezado = {
   job: 'Backend Developer',
 }
 
-const dataContact: DataContactInterface = NayaDataContact.NayaDataContactAll
+const dataContact: DataContactInterface = DataContact.NayaDataContactAll
 
 const summary = {
   titulo: "Resumen",
@@ -49,22 +53,22 @@ const skills = {
     Allskills.Docker,
     Allskills.Git,
     Allskills.AgileScrum,
-    NayaAllskills.TypeORM,
-    NayaAllskills.ExpressJs,
-    NayaAllskills.Sequelize,
-    NayaAllskills.Inversify,
-    NayaAllskills.TailwindCSS,
-    NayaAllskills.Postman,
-    NayaAllskills.UnitTesting,
-    NayaAllskills.GraphQL,
-    NayaAllskills.E2ETesting,
+    Allskills.TypeORM,
+    Allskills.ExpressJs,
+    Allskills.Sequelize,
+    Allskills.Inversify,
+    Allskills.TailwindCSS,
+    Allskills.Postman,
+    Allskills.UnitTesting,
+    Allskills.GraphQL,
+    Allskills.E2ETesting,
   ],
 }
 
 const portfolio = {
   titulo: "Porfolios",
   text: [
-    NayaAllPortfolios.NayaPortfolios
+    AllPortfolios.NayaPortfolios
   ]
 }
 

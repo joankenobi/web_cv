@@ -26,34 +26,6 @@ const dataContactAll = {
     }
   }
 
-const NayaDataContactAll = {
-    mail: "nayarith070@gmail.com",
-    phone: "+58 412 5963699",
-    location: "Venezuela, Caracas",
-    linkedin: {
-      text: "linkedin.com/in/nayarith-jiménez",
-      url: "http://www.linkedin.com/in/nayarith-jim%C3%A9nez",
-    },
-    github: {
-      text: "github.com/Naya070",
-      url: "https://github.com/Naya070",
-    }
-  }
-
-const NayaDataContactNophoneNodirection = {
-    mail: "nayarith070@gmail.com",
-    phone: "+58 412 5963699",
-    location: "Venezuela, Caracas",
-    linkedin: {
-      text: "linkedin.com/in/nayarith-jiménez",
-      url: "http://www.linkedin.com/in/nayarith-jim%C3%A9nez",
-    },
-    github: {
-      text: "github.com/Naya070",
-      url: "https://github.com/Naya070",
-    }
-  }
-
 const dataContactNophoneNodirection = {
     mail: "joan1233blanco@gmail.com",
     phone: "",
@@ -71,9 +43,4 @@ const dataContactNophoneNodirection = {
 export const DataContact = {
     dataContactAll,
     dataContactNophoneNodirection,
-}
-
-export const NayaDataContact = {
-    NayaDataContactAll,
-    NayaDataContactNophoneNodirection,
 }

@@ -1,15 +1,4 @@
-export interface SkillInterface {
-    titulo: string;
-    text: Skill[];
-}
-
-export interface Skill {
-    name: string;
-    levelYear?: string;
-    levelByO?: string;
-    levelBySenior?: string;
-    level?: string;
-}
+import { Skill } from "../CVContent/Skills";
 
 const JavaScript: Skill = {
     name: "JavaScript",
@@ -49,12 +38,12 @@ const Nodejs: Skill = {
 const Python: Skill = {
     name: "Python",
     levelBySenior: "Semi senior",
-    levelByO: "◉◉◉○○",
-    level: "3 años"
+    levelByO: "◉○○○○",
+    level: "1 años"
 }
 
 const SQLNoSQLdatabases: Skill = {
-    name: "SQL & NoSQL databases",
+    name: "SQL databases",
     levelBySenior: "Junior",
     levelByO: "◉◉○○○",
     level: "2 años"
@@ -67,24 +56,10 @@ const RESTfulAPIs: Skill = {
     level: "3 años"
 }
 
-const Django: Skill = {
-    name: "Django",
-    levelBySenior: "Junior",
-    levelByO: "◉○○○○",
-    level: "2 años"
-}
-
 const Docker: Skill = {
     name: "Docker",
     levelBySenior: "Junior",
     levelByO: "◉○○○○",
-    level: "1 años"
-}
-
-const AWS: Skill = {
-    name: "AWS",
-    levelBySenior: "Junior",
-    levelByO: "○○○○○",
     level: "1 años"
 }
 
@@ -102,37 +77,13 @@ const AgileScrum: Skill = {
     level: "3 años"
 }
 
-const CICD: Skill = {
-    name: "CI/CD",
-    levelBySenior: "Semi senior",
-    levelByO: "◉◉○○○",
-    level: "3 años"
-}
-
-const Pandas: Skill = {
-    name: "Pandas",
-    levelBySenior: "Semi senior",
-    levelByO: "◉○○○○",
-    level: "2 años"
-}
 const Java: Skill = {
     name: "Java",
-    levelBySenior: "Semi senior",
+    levelBySenior: "Junior",
     levelByO: "◉○○○○",
-    level: "2 años"
-}
-const Scala: Skill = {
-    name: "Scala",
-    levelBySenior: "Junior",
-    levelByO: "○○○○○",
     level: "6 meses"
 }
-const Azure: Skill = {
-    name: "Azure",
-    levelBySenior: "Junior",
-    levelByO: "○○○○○",
-    level: "6 meses"
-}
+
 const Ingles: Skill = {
     name: "Ingles",
     level: "comprensión lectora",
@@ -140,8 +91,81 @@ const Ingles: Skill = {
     levelYear: "3 años"
 }
 
+const GraphQL: Skill={
+    name: "GraphQL",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "1.5 años",
+}
+
+const TypeORM: Skill={
+    name: "TypeORM",
+    levelBySenior: "Junior",
+    levelByO: "◉◉○○○",
+    level: "1.5 año",
+}
+
+const ExpressJs: Skill={
+    name: "Express Js",
+    levelBySenior: "Junior",
+    levelByO: "◉◉○○○",
+    level: "6 meses",
+}
+
+const Sequelize: Skill={
+    name: "Sequelize",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "6 meses",
+}
+
+const Inversify: Skill={
+    name: "Inversify",
+    levelBySenior: "Junior",
+    levelByO: "◉○○○○",
+    level: "6 meses",
+}
+
+const TailwindCSS: Skill={
+    name: "Tailwind CSS",
+    levelBySenior: "Junior",
+    levelByO: "◉◉○○○",
+    level: "10 meses",
+}
+
+const Postman: Skill={
+    name: "Postman",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "1.5 años",
+}
+
+const UnitTesting: Skill={
+    name: "Unit Testing",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "1.5 años",
+}
+
+const E2ETesting: Skill={
+    name: "E2E Testing",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "1.5 años",
+}
+
+
 export const Allskills = {
     JavaScript,
+    GraphQL,
+    TypeORM,
+    ExpressJs,
+    Sequelize,
+    Inversify,
+    TailwindCSS,
+    Postman,
+    UnitTesting,
+    E2ETesting,
     NestJs,
     TypeScript,
     React,
@@ -149,15 +173,9 @@ export const Allskills = {
     Python,
     SQLNoSQLdatabases,
     RESTfulAPIs,
-    Django,
     Docker,
-    AWS,
     Git,
     AgileScrum,
-    CICD,
-    Pandas,
     Java,
-    Scala,
-    Azure,
     Ingles
 }
