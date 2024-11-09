@@ -4,7 +4,7 @@ const NayarithCentriaGroup: workExperienceText = {
     job: "Backend Developer",
     duration: "Centria Group | 2023-Ago - actual",
     description: [
-        "- Me desempeñe en tareas de crear, refactorizar, mantener y testear el código de los proyectos para su óptimo desempeño, planificar y ejecutar planes de creación de nuevas features que abarcaron un total de 108 pr desarrollados para los repositorios de la empresa, dentro de estos pr puedo destacar más de 22 tasks de refactorización de código, más de 21 tasks de creación de nuevas features y más 15 tasks de implementación de pruebas unitarias.",
+        "Me desempeñe en tareas de crear, refactorizar, mantener y testear el código de los proyectos para su óptimo desempeño, planificar y ejecutar planes de creación de nuevas features que abarcaron un total de 108 pr desarrollados para los repositorios de la empresa, dentro de estos pr puedo destacar más de 22 tasks de refactorización de código, más de 21 tasks de creación de nuevas features y más 15 tasks de implementación de pruebas unitarias.",
     ]
 }
 
