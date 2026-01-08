@@ -84,7 +84,7 @@ const Docker: Skill = {
 const AWS: Skill = {
     name: "AWS",
     levelBySenior: "Junior",
-    levelByO: "○○○○○",
+    levelByO: "◉○○○○",
     level: "1 años"
 }
 
@@ -118,8 +118,8 @@ const Pandas: Skill = {
 const Java: Skill = {
     name: "Java",
     levelBySenior: "Semi senior",
-    levelByO: "◉○○○○",
-    level: "2 años"
+    levelByO: "◉◉◉○○",
+    level: "3 años"
 }
 const Scala: Skill = {
     name: "Scala",

@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch, Printer } from 'lucide-react'
 import { WorkExperience, AllWorkExperiences, } from '../constants/CVContent/WorkExperiences'
 import { Summaries } from '../constants/CVContent/Summaries'
 import { DataContact, DataContactInterface } from '../constants/CVContent/DataContact'
@@ -9,14 +9,14 @@ import { EducationInterface, AllEducations } from '../constants/CVContent/Educat
 
 const encabezado = {
   name: 'Joan Blanco',
-  job: 'Backend Developer',
+  job: 'Java/Nest Backend Developer',
 }
 
 const dataContact: DataContactInterface = DataContact.dataContactAll
 
 const summary = {
   titulo: "Resumen",
-  text: Summaries.ProgramadorBackend,
+  text: Summaries.ProgramadorBackendJava,
 }
 
 const workExperience: WorkExperience = {
@@ -49,6 +49,8 @@ const skills = {
     Allskills.Docker,
     Allskills.Git,
     Allskills.AgileScrum,
+    Allskills.NestJs,
+    Allskills.AWS,
   ],
 }
 
@@ -70,11 +72,11 @@ export function CurriculumBackendGaliciaNextJava() {
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center">
             <Mail className="w-5 h-5 mr-2" />
-            <a href={"mailto:" + dataContact.mail} className="hover:underline">{dataContact.mail}</a>
+            <a href={"mailto:" + dataContact.mail} target="_blank" rel="noopener noreferrer" className="hover:underline">{dataContact.mail}</a>
           </div>
           <div className="flex items-center">
             <Phone className="w-5 h-5 mr-2" />
-            <a href={"tel:" + dataContact.phone} className="hover:underline">{dataContact.phone}</a>
+            <a href={"tel:" + dataContact.phone} target="_blank" rel="noopener noreferrer" className="hover:underline">{dataContact.phone}</a>
           </div>
           <div className="flex items-center">
             <MapPin className="w-5 h-5 mr-2" />
@@ -159,6 +161,16 @@ export function CurriculumBackendGaliciaNextJava() {
           </section>
         </div>
       </div>
+      <button
+        onClick={() => window.print()}
+        className="no-print fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 flex items-center gap-2 group"
+        title="Imprimir PDF"
+      >
+        <Printer className="w-6 h-6" />
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap">
+          Imprimir PDF
+        </span>
+      </button>
     </div>
   )
 }

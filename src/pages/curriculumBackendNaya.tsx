@@ -1,16 +1,12 @@
-import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch, Printer } from 'lucide-react'
 import { AllWorkExperiences } from '../constants/NayaCVContent/WorkExperiences'
 import { Summaries } from '../constants/NayaCVContent/Summaries'
-import {  DataContact } from '../constants/NayaCVContent/DataContact'
-import {  Allskills } from '../constants/NayaCVContent/Skills'
+import { DataContact } from '../constants/NayaCVContent/DataContact'
+import { Allskills } from '../constants/NayaCVContent/Skills'
 import { AllPortfolios } from '../constants/NayaCVContent/Portfolios'
 import { AllEducations } from '../constants/NayaCVContent/Education'
-import { DataContactInterface} from '../constants/CVContent/DataContact'
-import { WorkExperience} from '../constants/CVContent/WorkExperiences'
-import { SkillInterface} from '../constants/CVContent/Skills'
-import { PortfolioInterface } from '../constants/CVContent/Portfolios'
-import { EducationInterface} from '../constants/CVContent/Education'
-
+import { DataContactInterface } from '../constants/CVContent/DataContact'
+import { WorkExperience } from '../constants/CVContent/WorkExperiences'
 
 const encabezado = {
   name: 'Nayarith Jiménez',
@@ -92,11 +88,11 @@ export function NayaCurriculumBackend() {
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center">
             <Mail className="w-5 h-5 mr-2" />
-            <a href={"mailto:" + dataContact.mail} className="hover:underline">{dataContact.mail}</a>
+            <a href={"mailto:" + dataContact.mail} target="_blank" rel="noopener noreferrer" className="hover:underline">{dataContact.mail}</a>
           </div>
           <div className="flex items-center">
             <Phone className="w-5 h-5 mr-2" />
-            <a href={"tel:" + dataContact.phone} className="hover:underline">{dataContact.phone}</a>
+            <a href={"tel:" + dataContact.phone} target="_blank" rel="noopener noreferrer" className="hover:underline">{dataContact.phone}</a>
           </div>
           <div className="flex items-center">
             <MapPin className="w-5 h-5 mr-2" />
@@ -144,7 +140,7 @@ export function NayaCurriculumBackend() {
               }
             </ul>
           </section>
-          
+
           {/* CERTIFICADOS */}
           <section>
             <div className='flex items-center justify-center border-b border-blue-500 mb-3 pb-2'>
@@ -197,6 +193,16 @@ export function NayaCurriculumBackend() {
           </section>
         </div>
       </div>
+      <button
+        onClick={() => window.print()}
+        className="no-print fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 flex items-center gap-2 group"
+        title="Imprimir PDF"
+      >
+        <Printer className="w-6 h-6" />
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap">
+          Imprimir PDF
+        </span>
+      </button>
     </div>
   )
 }

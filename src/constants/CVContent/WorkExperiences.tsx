@@ -1,16 +1,16 @@
 export interface WorkExperience {
-  titulo: string;
-  text: workExperienceText[];
+    titulo: string;
+    text: workExperienceText[];
 }
 
 export interface workExperienceText {
-  job: string;
-  duration: string;
-  description: string[];
+    job: string;
+    duration: string;
+    description: string[];
 }
-    
+
 const frelancerBackendVen: workExperienceText = {
-    job: "FREELANCER semi senior Backend",
+    job: "Desarrollador Backend Java",
     duration: "Miranda Venezuela | May 2022-actual.",
     description: [
         "Desarrollé un servicio de alto trafico capaz de recibir una cantidad superior a 24 mil peticiones por dia.",
@@ -25,17 +25,17 @@ const frelancerBackendBancoGalicia: workExperienceText = {
     description: frelancerBackendVen.description
 }
 
-const cientificoDeDatosGeopulso: workExperienceText = {    
+const cientificoDeDatosGeopulso: workExperienceText = {
     job: "Desarrollador de software y científico de datos",
     duration: "Geopulso | May 2021-Nov 2022",
     description: [
         "Desarrollé un software informático capaz de obtener el pronostico de operaciones financieras para la inversion en criptomonedas utilizando herramientas de ciencias de datos y machine learning.",
-        "Analicé y procesé más de 3000 datos de diferentes fuentes.", 
+        "Analicé y procesé más de 3000 datos de diferentes fuentes.",
         "Obtuve información relevante y util para la toma de decisiones y el desarrollo de un modelo de machine learning.",
     ]
 }
 
-const activoDeSoporteTecnicoUnexpo: workExperienceText = {    
+const activoDeSoporteTecnicoUnexpo: workExperienceText = {
     job: "Activo de soporte tecnico",
     duration: "Unexpo | Jul 2021-Oct 2021",
     description: [
@@ -45,7 +45,7 @@ const activoDeSoporteTecnicoUnexpo: workExperienceText = {
 
 export const AllWorkExperiences = {
     frelancerBackendVen,
-frelancerBackendBancoGalicia,
-cientificoDeDatosGeopulso,
-activoDeSoporteTecnicoUnexpo,
+    frelancerBackendBancoGalicia,
+    cientificoDeDatosGeopulso,
+    activoDeSoporteTecnicoUnexpo,
 }
