@@ -55,7 +55,7 @@ const skills = {
 }
 
 const portfolio = {
-  titulo: "Porfolios",
+  titulo: "Portfolio",
   text: [
     AllPortfolios.PortfolioCarrd
   ]
