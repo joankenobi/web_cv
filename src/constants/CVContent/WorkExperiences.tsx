@@ -13,15 +13,15 @@ const frelancerBackendVen: workExperienceText = {
     job: "Desarrollador Backend Java",
     duration: "Miranda Venezuela | May 2022-actual.",
     description: [
-        "Desarrollé un servicio de alto trafico capaz de recibir una cantidad superior a 24 mil peticiones por dia.",
+        "Lideré el desarrollo de un servicio de alto trafico capaz de recibir una cantidad superior a 24 mil peticiones por dia.",
         "Implementé multiples refactors que mejoraron el funcionamiento de 10 servicios API REST.",
-        "Trabajé en equipo, siempre ayudando a comprender procesos y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
+        "Trabajé mucho en equipo, siempre ayudando a comprender procesos y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
     ]
 }
 
 const frelancerBackendBancoGalicia: workExperienceText = {
     job: frelancerBackendVen.job,
-    duration: "Banco Galicia Argentina | May 2022-actual.",
+    duration: "Banco Galicia Argentina | May 2022-2026.",
     description: frelancerBackendVen.description
 }
 
