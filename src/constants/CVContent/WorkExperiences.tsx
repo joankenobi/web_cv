@@ -36,7 +36,7 @@ const cientificoDeDatosGeopulso: workExperienceText = {
 }
 
 const activoDeSoporteTecnicoUnexpo: workExperienceText = {
-    job: "Activo de soporte tecnico",
+    job: "Activo de soporte técnico",
     duration: "Unexpo | Jul 2021-Oct 2021",
     description: [
         "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Mangement Services para la plataforma de educación virtual de la UNEXPO con cero costos para la universidad aprovechando herramientas externas igualmente gratuitas."
