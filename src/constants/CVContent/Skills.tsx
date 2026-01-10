@@ -121,10 +121,10 @@ const Java: Skill = {
     levelByO: "◉◉◉○○",
     level: "3 años"
 }
-const Scala: Skill = {
-    name: "Scala",
+const Selenium: Skill = {
+    name: "Selenium",
     levelBySenior: "Junior",
-    levelByO: "○○○○○",
+    levelByO: "◉◉○○○",
     level: "6 meses"
 }
 const Azure: Skill = {
@@ -157,7 +157,7 @@ export const Allskills = {
     CICD,
     Pandas,
     Java,
-    Scala,
+    Selenium,
     Azure,
     Ingles
 }
