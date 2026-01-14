@@ -19,6 +19,10 @@ const frelancerBackendVen: workExperienceText = {
     ]
 }
 
+const resumen = "Resumido: Lideré el desarrollo de un servicio de alto tráfico y refactoricé múltiples servicios API REST. Fomenté un ambiente de respeto y compañerismo en el equipo."
+const resumen2 = "Resumido: Desarrollé software para pronóstico de operaciones financieras en criptomonedas usando ciencia de datos y machine learning. Analicé más de 3000 datos y obtuve información útil para el desarrollo de modelos."
+const resumen3 = "Resumido: Administré e inicialicé un sistema de soporte al usuario con Jira Management Services para la plataforma de educación virtual."
+
 const QAProgramadorBackendJava: workExperienceText = {
     job: frelancerBackendVen.job,
     duration: "Banco Galicia Argentina | May 2022-2026.",
@@ -31,6 +35,12 @@ const QAProgramadorBackendJava: workExperienceText = {
 
 const frelancerBackendBancoGalicia: workExperienceText = {
     job: frelancerBackendVen.job,
+    duration: "Banco Galicia Argentina | May 2022-2026.",
+    description: frelancerBackendVen.description
+}
+
+const fullStackBancoGalicia: workExperienceText = {
+    job: "Desarrollador FullStack",
     duration: "Banco Galicia Argentina | May 2022-2026.",
     description: frelancerBackendVen.description
 }
@@ -57,6 +67,7 @@ export const AllWorkExperiences = {
     frelancerBackendVen,
     QAProgramadorBackendJava,
     frelancerBackendBancoGalicia,
+    fullStackBancoGalicia,
     cientificoDeDatosGeopulso,
     activoDeSoporteTecnicoUnexpo,
 }
