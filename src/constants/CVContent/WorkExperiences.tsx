@@ -13,8 +13,8 @@ const frelancerBackendVen: workExperienceText = {
     job: "Desarrollador Backend Java",
     duration: "Miranda Venezuela | May 2022-actual.",
     description: [
-        "Lideré el desarrollo de un servicio de alto tráfico capaz de recibir una cantidad superior a 24 mil peticiones por dia.",
-        "Implementé múltiples refactors que mejoraron el funcionamiento de 10 servicios API REST.",
+        "Lideré el desarrollo de un servicio de alto tráfico, capaz de procesar más de 24.000 solicitudes diarias, garantizando estabilidad y rendimiento.",
+        "Implementé refactorizaciones estratégicas que optimizaron el funcionamiento y la mantenibilidad de más de 10 servicios API REST.",
         "Trabajé mucho en equipo, siempre ayudando a comprender procesos y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
     ]
 }
@@ -29,7 +29,8 @@ const QAProgramadorBackendJava: workExperienceText = {
     description: [
         frelancerBackendVen.description[0], 
     frelancerBackendVen.description[1],
-"Apoyé mucho al equipo de QA en las prubas de los servicios del banco, dandoles tips, explicaciones sobre el funcionamiento de los servicios y atajos para las pruebas y al mismo tiempo aprendi sobre el mantenimiento de calidad del software y la importancia del QA en el desarrollo del mismo. "
+"Colaboré activamente con el equipo de QA, entregando guías, explicaciones funcionales y atajos de prueba, fortaleciendo los procesos de validación y calidad.",
+        "Adquirí una sólida comprensión del aseguramiento de calidad de software, integrando buenas prácticas de QA al ciclo de desarrollo para reducir errores y mejorar la experiencia final."
 ]
 }
 
