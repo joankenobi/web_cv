@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch, Printer, Globe } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin, Album, ArchiveIcon, GitBranch, Printer } from 'lucide-react'
 import { WorkExperience, AllWorkExperiences, } from '../constants/CVContent/WorkExperiences'
 import { Summaries } from '../constants/CVContent/Summaries'
 import { DataContact, DataContactInterface } from '../constants/CVContent/DataContact'
@@ -9,14 +9,14 @@ import { EducationInterface, AllEducations } from '../constants/CVContent/Educat
 
 const encabezado = {
   name: 'Joan Blanco',
-  job: 'FullStack Developer',
+  job: 'Backend Developer',
 }
 
 const dataContact: DataContactInterface = DataContact.dataContactAll
 
 const summary = {
   titulo: "Resumen",
-  text: Summaries.FullStackIngenieroDeSoftware,
+  text: Summaries.FullStackIngenieroDeSoftwarePythonFastapi,
 }
 
 const workExperience: WorkExperience = {
@@ -42,14 +42,13 @@ const skills = {
     Allskills.TypeScript,
     Allskills.React,
     Allskills.Python,
-    Allskills.Java,
+    Allskills.FastApi,
     Allskills.SQLNoSQLdatabases,
     Allskills.RESTfulAPIs,
     Allskills.Django,
     Allskills.Docker,
     Allskills.Git,
     Allskills.AgileScrum,
-    Allskills.NestJs,
     Allskills.AWS,
   ],
 }
@@ -61,15 +60,7 @@ const portfolio = {
   ]
 }
 
-const idiomas = {
-  titulo: "Idiomas",
-  text: [
-    Allskills.Ingles,
-    Allskills.Español,
-  ]
-}
-
-export function CurriculumFullStackGaliciaNextJava() {
+export function CurriculumBackendGaliciaPythonFastapi() {
   return (
     <div className="max-w-4xl mx-auto p-8 bg-white text-gray-800">
       <header className="mb-8">
@@ -115,25 +106,6 @@ export function CurriculumFullStackGaliciaNextJava() {
                   </p>
                 </li>
               ))}
-            </ul>
-          </section>
-
-          {/* IDIOMAS */}
-          <section>
-            <div className='flex items-center justify-center border-b border-blue-500 mb-3 pb-2'>
-              <Globe className="w-5 h-5 mr-2" />
-              <h3 className="text-2xl font-semibold">{idiomas.titulo}</h3>
-            </div>
-            <ul className="list-disc columns-1">
-              {idiomas.text.map((item, index) => (
-                <li key={index} className='text-2sm' >
-                  {item.name}
-                  <p className='text-xs text-left text-gray-500'>
-                    {item.level}
-                  </p>
-                </li>
-              ))
-              }
             </ul>
           </section>
 

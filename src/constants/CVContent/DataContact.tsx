@@ -24,8 +24,8 @@ const argentinephone = {
 
 const dataContactAll = {
   mail: "joan1233blanco@gmail.com",
-  phone: argentinephone.phone,
-  location: argentinephone.location,
+  phone: venezuelaphone.phone,
+  location: venezuelaphone.location,
   linkedin: {
     text: "linkedin.com/in/joan-blanco",
     url: "https://www.linkedin.com/in/joan-blanco/",

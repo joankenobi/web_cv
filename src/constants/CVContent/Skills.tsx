@@ -52,6 +52,12 @@ const Python: Skill = {
     levelByO: "◉◉◉○○",
     level: "3 años"
 }
+const FastApi: Skill = {
+    name: "FastApi",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉◉○○",
+    level: "3 años"
+}
 
 const SQLNoSQLdatabases: Skill = {
     name: "SQL & NoSQL databases",
@@ -139,6 +145,12 @@ const Ingles: Skill = {
     levelByO: "◉◉○○○",
     levelYear: "3 años"
 }
+const Español: Skill = {
+    name: "Español",
+    level: "nativo",
+    levelByO: "◉◉◉◉◉",
+    levelYear: "26 años"
+}
 
 export const Allskills = {
     JavaScript,
@@ -151,6 +163,7 @@ export const Allskills = {
     RESTfulAPIs,
     Django,
     Docker,
+    FastApi,
     AWS,
     Git,
     AgileScrum,
@@ -159,5 +172,6 @@ export const Allskills = {
     Java,
     Selenium,
     Azure,
-    Ingles
+    Ingles,
+    Español
 }

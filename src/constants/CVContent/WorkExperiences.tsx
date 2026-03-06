@@ -56,7 +56,17 @@ const fullStackBancoGalicia: workExperienceText = {
     description: FullStackJoel.description
 }
 
-const cientificoDeDatosGeopulso: workExperienceText = {
+const cientificoDeDatosGeopulsoJoel: workExperienceText = {
+    job: "Ingeniero de Software y Científico de Datos",
+    duration: "Geopulso | May 2021 - Nov 2022",
+    description: [
+        "Diseñé e implementé modelos predictivos para mercados financieros, integrando pipelines de datos automatizados.",
+        "Procesé y normalicé complejos sets de datos heterogéneos para el entrenamiento de modelos analíticos.",
+        "Implementé soluciones de web scraping y análisis de datos estratégicos para potenciar la toma de decisiones.",
+    ]
+}
+
+const cientificoDeDatosGeopulsoJoan: workExperienceText = {
     job: "Desarrollador de software y científico de datos",
     duration: "Geopulso | May 2021-Nov 2022",
     description: [
@@ -66,9 +76,15 @@ const cientificoDeDatosGeopulso: workExperienceText = {
     ]
 }
 
+const cientificoDeDatosGeopulso: workExperienceText = {
+    job: cientificoDeDatosGeopulsoJoel.job,
+    duration: cientificoDeDatosGeopulsoJoel.duration,
+    description: cientificoDeDatosGeopulsoJoel.description
+}
+
 const activoDeSoporteTecnicoUnexpo: workExperienceText = {
-    job: "Activo de soporte técnico",
-    duration: "Unexpo | Jul 2021-Oct 2021",
+    job: "Consultor de Operaciones TI",
+    duration: "Unexpo | Jul 2021 - Oct 2021",
     description: [
         "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Mangement Services para la plataforma de educación virtual de la UNEXPO con cero costos para la universidad aprovechando herramientas externas igualmente gratuitas."
     ]
