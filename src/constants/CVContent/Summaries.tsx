@@ -9,7 +9,7 @@ const ProgramadorBackendJava = "Programador Backend java con más de 3 años de 
 
 const ProgramadorBackendJavaToQA = "Programador Backend java con más de 3 años de experiencia, especializados en el desarrollo de arquitecturas escalables y servicios API REST que busca cambiar de rol para convertirse en QA, con el objetivo de mejorar la calidad de los productos y aportar como QA y programador backend."
 
-const FullStackIngenieroDeSoftware  = "Ingeniero de Software con sólida trayectoria en banca y fintech, especializado en arquitecturas distribuidas de alta concurrencia y sistemas de misión crítica. Experto en optimización de rendimiento y costos mediante estrategias Open Source, combinando visión técnica con la entrega de soluciones escalables en ecosistemas políglotas."
+const FullStackIngenieroDeSoftware  = "Ingeniero de Software con sólida trayectoria en banca y fintech, con más de 4 años de experiencia, especializado en arquitecturas distribuidas de alta concurrencia y sistemas de misión crítica. Experto en optimización de rendimiento y costos mediante estrategias Open Source, combinando visión técnica con la entrega de soluciones escalables en ecosistemas políglotas."
 
 const FullStackIngenieroDeSoftwarePythonFastapi  = "Ingeniero de Software con sólida trayectoria en banca y fintech, especializado en arquitecturas distribuidas de alta concurrencia y sistemas de misión crítica. Con enfoque en optimización de rendimiento y costos mediante estrategias Open Source."
 
