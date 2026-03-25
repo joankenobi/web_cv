@@ -86,7 +86,7 @@ const activoDeSoporteTecnicoUnexpo: workExperienceText = {
     job: "Consultor de Operaciones TI",
     duration: "Unexpo | Jul 2021 - Oct 2021",
     description: [
-        "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Mangement Services para la plataforma de educación virtual de la UNEXPO con cero costos para la universidad aprovechando herramientas externas igualmente gratuitas."
+        "Administré e inicialicé un sistema de soporte al usuario con la herramienta Jira Management Services para la plataforma de educación virtual de la UNEXPO con cero costos para la universidad aprovechando herramientas externas igualmente gratuitas."
     ]
 }
 

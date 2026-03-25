@@ -1,6 +1,7 @@
 import { CurriculumBackendGaliciaNextJava } from './pages/curriculumBackendGaliciaNextJava.tsx'
 import { CurriculumDataScientisGaliciaScalaC } from './pages/curriculumDataScientisGaliciaScalaC.tsx'
 import { CurriculumFullStackGaliciaNextJava } from './pages/curriculumFullStackGaliciaNextJava.tsx'
+import { CurriculumFullStackGaliciaNextJavaAts } from './pages/curriculumFullStackGaliciaNextJavaAts.tsx'
 import { NayaCurriculumBackend } from './pages/curriculumBackendNaya.tsx'
 import { QASelenium } from './pages/QASelenium.tsx'
 import { CurriculumBackendGaliciaPythonFastapi } from './pages/curriculumBackendGaliciaPythonFastapi.tsx'
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/backend' element={<CurriculumBackendGaliciaNextJava />} />
           <Route path='/fullstack' element={<CurriculumFullStackGaliciaNextJava />} />
+          <Route path='/fullstackAts' element={<CurriculumFullStackGaliciaNextJavaAts />} />
           <Route path='/QA' element={<QASelenium />} />
           <Route path='/datascience' element={<CurriculumDataScientisGaliciaScalaC />} />
           <Route path='/backend-naya' element={<NayaCurriculumBackend />} />
