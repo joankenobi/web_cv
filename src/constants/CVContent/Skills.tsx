@@ -59,8 +59,22 @@ const FastApi: Skill = {
     level: "3 años"
 }
 
-const SQLNoSQLdatabases: Skill = {
-    name: "SQL & NoSQL databases",
+const SpringBoot: Skill = {
+    name: "SpringBoot",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉◉○○",
+    level: "3 años"
+}
+
+const SQL: Skill = {
+    name: "SQL",
+    levelBySenior: "Junior",
+    levelByO: "◉◉○○○",
+    level: "2 años"
+}
+
+const NoSQL: Skill = {
+    name: "NoSQL",
     levelBySenior: "Junior",
     levelByO: "◉◉○○○",
     level: "2 años"
@@ -68,6 +82,13 @@ const SQLNoSQLdatabases: Skill = {
 
 const RESTfulAPIs: Skill = {
     name: "Restful APIs",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "3 años"
+}
+
+const Linux: Skill = {
+    name: "Linux",
     levelBySenior: "Semi senior",
     levelByO: "◉◉○○○",
     level: "3 años"
@@ -133,11 +154,11 @@ const Selenium: Skill = {
     levelByO: "◉◉○○○",
     level: "6 meses"
 }
-const Azure: Skill = {
-    name: "Azure",
-    levelBySenior: "Junior",
-    levelByO: "○○○○○",
-    level: "6 meses"
+const Microservicios: Skill = {
+    name: "Microservicios",
+    levelBySenior: "Semi senior",
+    levelByO: "◉◉○○○",
+    level: "3 años"
 }
 const Ingles: Skill = {
     name: "Ingles",
@@ -159,19 +180,22 @@ export const Allskills = {
     React,
     Nodejs,
     Python,
-    SQLNoSQLdatabases,
+    SQL,
+    NoSQL,
     RESTfulAPIs,
     Django,
     Docker,
     FastApi,
+    SpringBoot,
     AWS,
     Git,
+    Linux,
     AgileScrum,
     CICD,
     Pandas,
     Java,
     Selenium,
-    Azure,
+    Microservicios,
     Ingles,
     Español
 }

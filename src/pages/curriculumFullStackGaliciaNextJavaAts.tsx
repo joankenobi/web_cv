@@ -39,23 +39,23 @@ const education = {
 const skillCategories = [
   {
     category: "Lenguajes de Programación",
-    items: ["Java", "JavaScript", "TypeScript", "Python"]
+    items: [Allskills.Java.name, Allskills.JavaScript.name, Allskills.TypeScript.name, Allskills.Python.name]
   },
   {
     category: "Frameworks y Librerías",
-    items: ["React", "NestJS", "Django", "Spring Boot", "Node.js"]
+    items: [Allskills.React.name, Allskills.NestJs.name, Allskills.Django.name, Allskills.SpringBoot.name, Allskills.Nodejs.name]
   },
   {
     category: "Bases de Datos",
-    items: ["SQL", "NoSQL", "PostgreSQL", "MongoDB"]
+    items: [Allskills.SQL.name, Allskills.NoSQL.name]
   },
   {
-    category: "DevOps y Cloud",
-    items: ["Docker", "AWS", "Git", "CI/CD", "Linux"]
+    category: "Cloud",
+    items: [Allskills.Docker.name, Allskills.AWS.name, Allskills.Git.name, Allskills.Linux.name]
   },
   {
     category: "Metodologías y Arquitectura",
-    items: ["Agile/Scrum", "RESTful APIs", "Microservicios", "Clean Architecture"]
+    items: [Allskills.AgileScrum.name, Allskills.RESTfulAPIs.name, Allskills.Microservicios.name]
   },
 ]
 
