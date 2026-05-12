@@ -2,6 +2,7 @@ import { CurriculumBackendGaliciaNextJava } from './pages/curriculumBackendGalic
 import { CurriculumDataScientisGaliciaScalaC } from './pages/curriculumDataScientisGaliciaScalaC.tsx'
 import { CurriculumFullStackGaliciaNextJava } from './pages/curriculumFullStackGaliciaNextJava.tsx'
 import { CurriculumFullStackGaliciaNextJavaAts } from './pages/curriculumFullStackGaliciaNextJavaAts.tsx'
+import { CurriculumBackendGaliciaNextJavaAts } from './pages/curriculumBackendGaliciaNextJavaAts.tsx'
 import { NayaCurriculumBackend } from './pages/curriculumBackendNaya.tsx'
 import { QASelenium } from './pages/QASelenium.tsx'
 import { CurriculumBackendGaliciaPythonFastapi } from './pages/curriculumBackendGaliciaPythonFastapi.tsx'
@@ -16,6 +17,7 @@ function App() {
       <>
         <Routes>
           <Route path='/backend' element={<CurriculumBackendGaliciaNextJava />} />
+          <Route path='/backendAts' element={<CurriculumBackendGaliciaNextJavaAts />} />
           <Route path='/fullstack' element={<CurriculumFullStackGaliciaNextJava />} />
           <Route path='/fullstackAts' element={<CurriculumFullStackGaliciaNextJavaAts />} />
           <Route path='/QA' element={<QASelenium />} />
