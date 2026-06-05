@@ -13,7 +13,7 @@ const frelancerBackendVen: workExperienceText = {
     job: "Desarrollador Backend Java",
     duration: "Miranda Venezuela | May 2022- Ene 2026.",
     description: [
-        "Lideré el desarrollo de un servicio de alto tráfico, capaz de procesar más de 24.000 solicitudes diarias, garantizando estabilidad y rendimiento.",
+        "Formé parte en el desarrollo de un servicio de alto tráfico, capaz de procesar más de 24.000 solicitudes diarias, garantizando estabilidad y rendimiento.",
         "Implementé refactorizaciones estratégicas que optimizaron el funcionamiento y la mantenibilidad de más de 10 servicios API REST.",
         "Trabajé mucho en equipo, siempre ayudando a comprender procesos y consultando los conceptos que yo no era capaz de comprender, todo desde una comunicación con base en el respeto y compañerismo."
     ]
@@ -23,7 +23,7 @@ const FullStackJoel: workExperienceText = {
     job: "Desarrollador FullStack",
     duration: "Miranda Venezuela | May 2022- Ene 2026.",
     description: [
-        "Lideré la arquitectura de un servicio crítico de alta concurrencia, asegurando disponibilidad y escalabilidad en un entorno de alto volumen transaccional.",
+        "Formé parte en desarrollo de un servicio crítico de alta concurrencia, asegurando disponibilidad y escalabilidad en un entorno de alto volumen transaccional.",
         "Orquesté la refactorización de 10 servicios REST, mejorando la eficiencia operativa y reduciendo la deuda técnica.",
         "Impulsé la colaboración técnica y el mentoring dentro del equipo, elevando el estándar de calidad y comunicación."
     ]
@@ -47,7 +47,7 @@ const QAProgramadorBackendJava: workExperienceText = {
 const frelancerBackendBancoGalicia: workExperienceText = {
     job: frelancerBackendVen.job,
     duration: "Banco Galicia Argentina | May 2022-2026.",
-    description: frelancerBackendVen.description
+    description: FullStackJoel.description
 }
 
 const fullStackBancoGalicia: workExperienceText = {

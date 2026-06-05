@@ -9,7 +9,7 @@ import { AllEducations } from '../constants/CVContent/Education'
 
 const encabezado = {
   name: 'Joan Blanco',
-  job: 'Desarrollador Backend | Ingeniero de Software',
+  job: 'Ingeniero Mecatrónico',
 }
 
 const dataContact: DataContactInterface = DataContact.dataContactAll
@@ -22,7 +22,7 @@ const summary = {
 const workExperience: WorkExperience = {
   titulo: "Experiencia Laboral",
   text: [
-    AllWorkExperiences.frelancerBackendBancoGalicia,
+    AllWorkExperiences.fullStackBancoGalicia,
     AllWorkExperiences.cientificoDeDatosGeopulso,
     AllWorkExperiences.activoDeSoporteTecnicoUnexpo
   ],
@@ -38,7 +38,7 @@ const education = {
 // Skills categorizados para mejor parseo ATS
 const skillCategories = [
   {
-    category: "Lenguajes de Programación",
+    category: "Conocimientos",
     items: [Allskills.Java.name, Allskills.JavaScript.name, Allskills.TypeScript.name, Allskills.Python.name]
   },
   {
