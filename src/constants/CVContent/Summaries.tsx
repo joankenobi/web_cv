@@ -18,6 +18,10 @@ const FullStackIngenieroDeSoftwarePythonFastapi  = "Ingeniero de Software con s�
 
 const IngenieroDeDatos = "Ingeniero de datos con experiencia en el desarrollo de pipelines y análisis de datos. Me apasiona la programación y la resolución de problemas, siempre buscando la eficiencia y la calidad en el manejo de los datos para aportar información importante. Trabajo en equipo y aprendo de mis compañeros, siempre dispuesto a compartir mis conocimientos y ayudar a los demás."
 
+const DesarrolladorWebJunior = "Desarrollador web con experiencia en JavaScript, Python y bases de datos SQL. He participado en proyectos de desarrollo de APIs REST y aplicaciones web, trabajando con herramientas como Git, Postman y entornos de gestión de tareas. Me apasiona aprender nuevas tecnologías y resolver problemas de forma colaborativa, aportando compromiso y disposición en cada proyecto."
+
+const AnalistaSistemasRetail = "Programador y Analista de Sistemas con experiencia en desarrollo de software, análisis de datos y plataformas de inteligencia de negocio. He trabajado con Python, SQL y APIs REST en proyectos de pipelines de datos, modelos predictivos y dashboards analíticos. Capaz de mantener, diagnosticar y mejorar sistemas existentes, así como desarrollar nuevos módulos y funcionalidades. Orientado a la resolución de problemas, el trabajo con código existente y la colaboración con equipos de negocio para convertir requerimientos en soluciones técnicas."
+
 export const Summaries = {
     ProgramadorBackend,
     IngenieroDeDatos,
@@ -25,4 +29,6 @@ export const Summaries = {
     ProgramadorBackendJavaToQA,
     FullStackIngenieroDeSoftware,
     FullStackIngenieroDeSoftwarePythonFastapi,
+    DesarrolladorWebJunior,
+    AnalistaSistemasRetail,
 }

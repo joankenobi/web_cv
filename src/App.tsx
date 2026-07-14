@@ -6,6 +6,8 @@ import { CurriculumBackendGaliciaNextJavaAts } from './pages/curriculumBackendGa
 import { NayaCurriculumBackend } from './pages/curriculumBackendNaya.tsx'
 import { QASelenium } from './pages/QASelenium.tsx'
 import { CurriculumBackendGaliciaPythonFastapi } from './pages/curriculumBackendGaliciaPythonFastapi.tsx'
+import { CurriculumDevWebJuniorAts } from './pages/curriculumDevWebJuniorAts.tsx'
+import { CurriculumAnalistaSistemasRetailAts } from './pages/curriculumAnalistaSistemasRetailAts.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
@@ -24,6 +26,8 @@ function App() {
           <Route path='/datascience' element={<CurriculumDataScientisGaliciaScalaC />} />
           <Route path='/backend-naya' element={<NayaCurriculumBackend />} />
           <Route path='/backend-python-fastapi' element={<CurriculumBackendGaliciaPythonFastapi />} />
+          <Route path='/dev-web-junior' element={<CurriculumDevWebJuniorAts />} />
+          <Route path='/analista-retail' element={<CurriculumAnalistaSistemasRetailAts />} />
         </Routes>
       </>
     </BrowserRouter>
